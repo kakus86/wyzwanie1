@@ -1,0 +1,13 @@
+.works{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 8vw 0;
+}
+.works__image{
+    width: 23vw;
+    height: 23vw;
+    margin: 0.2vw;
+    object-fit: cover;
+}
