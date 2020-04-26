@@ -140,16 +140,19 @@
 }
 .home__tile-title::before{
 
-		content : "";
+		content: "";
 		position: absolute;
 		top:3vw;
-		left    : 0;
-		bottom  : 0;
-		width   : 15%;  /* or 100px */
+		left: 0;
+		bottom: 0;
+		width: 15%; 
 		border-bottom:2px solid rgb(241, 230, 241);
 	  
 }
 .home__tile-text{
 	font-size: 0.9vw;
 	margin-top: 3vw;
+}
+.home__nav-mobile{
+	display: none;
 }

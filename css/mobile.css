@@ -1,0 +1,279 @@
+@media(max-width:991px){
+    .home__nav-menu {
+		position: fixed;
+		width: 100vw;
+        top: 0;
+        left: 0;
+        bottom: 0;
+		right: 0;
+		margin:0 !important;
+		padding: 0;
+		background-color: #fff;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-50%);
+    }
+    .home__nav-menu--open {
+        opacity: 1;
+        pointer-events: unset;
+        transform: unset;
+        outline: solid;
+    }   
+    .home__nav-mobile{
+        display: unset;
+        width: 100%;
+        position: relative;
+        border-bottom: 1px solid lightgray;
+    }
+    .home__nav-mobile::before{
+        content: url("/images/mobile-menu-back.png");
+        width: 20%;
+        padding: 5px;
+        height: 100%;
+        position: absolute;
+        border-right: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+    }
+    .back{
+        width: 80%;
+        height: 30px;
+        font-size: 30px;
+        padding: 20px;
+        text-align: end;
+    }
+    .home__nav-mobil-image{
+        width: 40px;
+        height: 40px;
+        border-right: 1px solid lightgray;
+        border-bottom: none;
+        padding: 15px;
+    }
+    .home__nav-menu-item{
+        width: 100vw;
+        border-bottom: 1px solid gray;
+        font-size: 12px;
+        font-weight: 300;
+        color:#202B30;
+        margin: 0;
+        padding: 10px;
+        justify-items: center;
+    }
+	.home__nav-menu-item li{
+        width: 100vw;
+		
+        font-size: 12px;
+        font-weight: 300;
+        color:#202B30;
+        margin: 10px 0;
+        padding: 10px;
+    }
+    .home__nav-mobile-button {
+        display: unset;
+        background: none;
+        border: none;
+		margin: 5px 20px;
+		cursor: pointer;
+    } 
+    .home__nav-mobile-button-image {
+        display: block;
+        position: absolute;
+        top: 75%;
+        right: 8%;
+        width: 6vw;
+    } 
+    .home__nav-container{
+        position: absolute;
+        width: 100vw;
+        height: 50vw;
+        top: 0;
+        flex-direction: column;
+        align-items: center;
+        background-color: #2b2e30;
+    }
+    .home__nav-logo{
+        width:35vw;
+        height: 9vw;
+        position: absolute;
+        top: 16vw;
+    }
+    .home__content{
+        width: 100vw;
+        height: 220vw;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-right: 1px solid #fff;
+    }
+    .home__content::before{
+        width: 100%; 
+        height: 100%;
+        background-position: center;
+        background-size: auto;
+    }
+    .home__content-header{
+        width: 100vw;
+        font-size: 12vw;
+        margin: 35vw 0.2vw 5vw;
+    }
+    .home__content-p{
+        width: 100vw;
+        font-size: 3.7vw;
+        margin: 0;
+    }
+    .home__content-button{
+        margin: 8vw 2vw;
+        padding: 4vw;
+        width: 40vw;
+        font-size: 4vw;
+        z-index: 0;
+    }
+    .home__tiles{
+        flex-direction: column;
+        top: 200vw;
+        margin: 0 auto;
+    }
+    .home__tile{
+        width: 92vw;
+        height: 100vw;
+        margin: 2vw 4vw;
+        padding: 10vw;
+    }
+    .home__tile-image{
+        width: 19vw;
+        margin: 1vw 0;
+    }
+    .home__tile-title{
+        font-size: 5.5vw;
+        font-weight: 400;
+        margin-bottom: 8vw;
+    }
+    .home__tile-title::before{
+    
+            top: 10vw;
+            width: 20%;
+            border-bottom:3px solid rgb(241, 230, 241); 
+    }
+    .home__tile-text{
+        font-size: 4vw;
+        margin-top: 3vw;
+    }
+    .services{
+        position: absolute;
+        top: 520vw;
+    }
+    
+    .services__h{
+        font-size: 4.5vw;
+    }
+    .services__title{
+        font-size: 11vw;
+        text-align: center;
+        font-weight: 900;
+        margin: 1.5vw 0;
+    }
+    .services__text{
+        font-size: 5vw;
+        width: 90vw;
+        text-align: center;
+        color: #9A9A9A;
+        font-weight: 300;
+    }
+    .services__content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90vw;
+        margin: 2vw 0;
+    }
+    .services__tile{
+        width: 94vw;
+        margin: 2.5vw 3vw;
+        padding: 5vw;
+    }
+    .services__tile-image{
+        width: 19vw;
+        height: 19vw;
+    }
+    .services__tile-title{
+        font-size: 9vw;
+        margin: 2vw;
+        font-weight: 700;
+    }
+    .services__tile-text{
+        font-weight: 300;
+        font-size: 5vw;
+    }
+    .works{
+        position: absolute;
+        top: 1080vw;
+        flex-wrap: unset;
+        flex-direction: column;
+    }
+    .works__image{
+        width: 94vw;
+        height: 94vw;
+        margin: 1.5vw 3vw;
+    }
+    .contact{
+        position: absolute;
+        top: 1870vw;
+        flex-direction: column;
+    }
+    .contact__text{
+        
+        text-align: center;
+        height: max-content;
+        
+    }
+    .contact__header{
+        width: 85vw;
+        font-size: 12vw;
+        font-weight: 700;
+        margin: 7.5vw;
+    }
+    .contact__paragraph{
+        width: 85vw;
+        align-self: unset;
+        margin: 7.5vw;
+        font-size: 4.5vw;
+        line-height: 1.5;
+        font-weight: 300;
+    }
+    .contact__form{
+        margin: 5vw;
+        height: 115vw;
+        width: 90vw;
+    }
+    .contact__form-item{
+        padding: 1.5vw;
+        margin: 0;
+    }
+    .contact__form-label{
+        font-size: 2.5vw;
+        color: #4e4c4c;
+    }
+    .contact__form-input{
+        margin: 1vw 0;
+        font-size: 3vw;
+    }
+    .contact__form-row{
+        display: unset;
+    }
+    .right-margin{
+        margin-right: unset;
+        margin-bottom: 4vw;
+    }
+    .left-margin{
+        margin-left: unset;
+    }
+    .contact__form-textarea{
+        height: 25vw;
+    }
+
+    .contact__form-button{
+        padding: 3vw;
+        margin-top:5vw;
+    }
+    
+}
