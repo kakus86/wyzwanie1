@@ -12,7 +12,6 @@
     width: 100vw;
 	height: 40vw;
     top: 0;
-    /*padding: 30px 205px;*/
 	justify-content: space-between;
 	align-items: flex-start;
 	z-index: 1;
@@ -76,12 +75,12 @@
 	width: 50vw;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 3vw;
-	font-weight: bold;
-	color: #EDEDED;
+	font-weight: 800;
+	color: #FFFFFF;
 }
 .home__content-p{
 	width: 47vw;
-	color: #C8C8C7;
+	color: #F5F5F5;
 	font-size: 0.7vw;
 	padding: 0 8vw;
 	line-height: 2;
@@ -118,7 +117,7 @@
 	height: 21vw;
 	margin: 1vw 0.6vw;
 	padding: 2.5vw;
-	background-color: #323641;
+	background-color: #202B30;
 	color: #EDEDED;
 }
 .home__tile-red{
