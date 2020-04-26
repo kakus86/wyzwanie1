@@ -29,7 +29,7 @@
         border-bottom: 1px solid lightgray;
     }
     .home__nav-mobile::before{
-        content: url("/images/mobile-menu-back.png");
+        content: url("images/mobile-menu-back.png");
         width: 20%;
         padding: 5px;
         height: 100%;
@@ -152,7 +152,7 @@
     
             top: 10vw;
             width: 20%;
-            border-bottom:3px solid rgb(241, 230, 241); 
+            border-bottom:3px solid #ffffff; 
     }
     .home__tile-text{
         font-size: 4vw;
