@@ -21,54 +21,49 @@
         pointer-events: unset;
         transform: unset;
         outline: solid;
+        z-index: 2;
     }   
     .home__nav-mobile{
         display: unset;
+        float: left;
         width: 100%;
         position: relative;
+        height: 20vw;
         border-bottom: 1px solid lightgray;
-    }
-    .home__nav-mobile::before{
-        content: url("images/mobile-menu-back.png");
-        width: 20%;
-        padding: 5px;
-        height: 100%;
-        position: absolute;
-        border-right: 1px solid lightgray;
-        border-bottom: 1px solid lightgray;
-    }
-    .back{
-        width: 80%;
-        height: 30px;
-        font-size: 30px;
-        padding: 20px;
-        text-align: end;
     }
     .home__nav-mobil-image{
-        width: 40px;
-        height: 40px;
+        width: 20vw;
+        object-fit: contain;
+        height: 100%;
         border-right: 1px solid lightgray;
         border-bottom: none;
-        padding: 15px;
+        padding: 7.5vw;
+        
+    }
+    .back{
+        height: 30px;
+        text-align: center;
+        font-size: 4.5vw;
+        padding: 7vw 35vw 0 0.5vw;
+        font-size: 4.5vw;
+        font-weight: 300;
+        color:#202B30;
+        float: right;
     }
     .home__nav-menu-item{
         width: 100vw;
         border-bottom: 1px solid gray;
-        font-size: 12px;
-        font-weight: 300;
-        color:#202B30;
         margin: 0;
-        padding: 10px;
+        padding: 1vw;
         justify-items: center;
     }
 	.home__nav-menu-item li{
         width: 100vw;
-		
-        font-size: 12px;
+        font-size: 4.5vw;
         font-weight: 300;
         color:#202B30;
-        margin: 10px 0;
-        padding: 10px;
+        margin: 1vw 0;
+        padding: 3vw;
     }
     .home__nav-mobile-button {
         display: unset;
