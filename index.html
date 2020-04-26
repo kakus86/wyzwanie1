@@ -138,26 +138,33 @@
 
         </article>
         <form class="contact__form">
-            <label class="contact__form-name before">
-                <input class="contact__form-input" type="text" name="name">
-            </label>
-            <div class="contact__form-row">
-                <label class="contact__form-company before">
-                    <input class="contact__form-company-input" type="text" name="company">
-                </label>
-                <label class="contact__form-email before">
-                    <input class="contact__form-email-input" type="email" name="email">
-                </label>
+            <div class="contact__form-item">
+                <label for="name" class="contact__form-label">Your name*</label>
+                <input class="contact__form-input" type="text" name="name" id="name">
+
             </div>
-            <label class="contact__form-service before">
-                <select class="contact__form-input" name="service">
-                    <option value="design" selected>Web Design</option>
-                    <option value="branding">Branding</option>
-                </select>
-            </label>
-            <label class="contact__form-describe before">
-                <textarea class="contact__form-textarea"></textarea>
-            </label>
+            <div class="contact__form-row">
+                <div class="contact__form-item right-margin">
+                <label for="company" class="contact__form-label">Company name*</label>
+                    <input class="contact__form-input" type="text" name="company" id="company">
+                </div>
+                <div class="contact__form-item left-margin">
+                <label for="email" class="contact__form-label">Email address*</label>
+                    <input class="contact__form-input" type="email" name="email"id="email">
+            </div>
+            </div>
+            <div class="contact__form-item">
+                <label for="service" class="contact__form-label">Select services*</label>
+                    <select class="contact__form-input" name="service" id="service">
+                        <option value="design" selected>Web Design</option>
+                        <option value="branding">Branding</option>
+                    </select>
+            </div>
+            <div class="contact__form-item">
+                <label class="contact__form-label">Describe your project*</label>
+                    <textarea class="contact__form-textarea"></textarea>
+                
+            </div>
             <input type="submit" class="contact__form-button" value="Submit">
         </form>
     </section>

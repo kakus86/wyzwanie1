@@ -1,18 +1,17 @@
 .contact{
     display: flex;
-    align-items: center;
     margin: 5vw 0;
     height: max-content;
 }
 .contact__text{
-    width: 35vw;
+    width: 40vw;
     text-align: end;
     display: flex;
     flex-direction: column;
     height: max-content;
 }
 .contact__header{
-    font-size: 3.2vw;
+    font-size: 4vw;
     margin: 1.3vw 0;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 800;
@@ -29,107 +28,61 @@
     flex-direction: column;
     margin: 2vw;
     height: 30vw;
+    width: 35vw;
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.before{
-    position: relative;
-	width: 100%;
-    padding-top: 0;  
-}
-
-.contact__form-name::before{
-	content: 'Your name*';
-	position: absolute;
-    top:0;
-    text-transform: uppercase;
-    font-size: 0.8vw;
-	color: gray;
-    padding: 0.5vw 0.8vw;
-	z-index: -1;
-}
-.contact__form-row{
+.contact__form-item{
+    border: 1px solid grey;
     display: flex;
-    width: 35vw;
+    flex-direction: column;
+    text-align: start;
+    padding: 0.8vw;
+    margin: 0.5vw 0;
+    width: 100%;
 }
-
-.contact__form-company-input, .contact__form-email-input{
-    width: 96%;
-    margin: 0;
-    height: 4vw;
-    background-color: transparent;
-    border: 1px solid #d6cfcf;
-    border-radius: 0.2vw;
-    padding: 1.2vw 0.8vw 0;
-    color: #5e5a5a;
-}
-.contact__form-email-input{
-    margin-left: 0.6vw;
-}
-.contact__form-company::before{
-	content: 'Company name*';
-	position: absolute;
+.contact__form-label{
+    border: none;
     text-transform: uppercase;
-    font-size: 0.8vw;
-	color: gray;
-    padding: 0.5vw 0.8vw;
-	z-index: -1;
-}
-
-.contact__form-email::before{
-	content: 'Email address*';
-	position: absolute;
-    text-transform: uppercase;
-    font-size: 0.8vw;
-	color: gray;
-    padding: 0.5vw 0.8vw;
-    z-index: -1;
-    margin-left: 0.6vw;
-}
-
-
-
-.contact__form-service::before{
-	content: 'Select service*';
-	position: absolute;
-    text-transform: uppercase;
-    font-size: 0.8vw;
-	color: gray;
-    padding: 0.5vw 0.8vw;
-	z-index: -1;
-}
-
-.contact__form-describe::before{
-	content: 'Describe your project*';
-	position: absolute;
-    text-transform: uppercase;
-    font-size: 0.8vw;
-	color: gray;
-    padding: 0.5vw 0.8vw;
-	z-index: -1;
-}
-.contact__form-input, .contact__form-textarea{
-    margin: 0;
-    width: 35vw;
-    height: 4vw;
-    background-color: transparent;
-    border: 1px solid #d6cfcf;
-    border-radius: 0.2vw;
-    padding: 1.2vw 0.8vw 0;
-    color: #5e5a5a;
+    color: lightgray;
     font-size: 1vw;
 }
-.contact__form-textarea{
-padding: 1.8vw 0.8vw !important;
+.contact__form-input{
+    border: none;
+    width: 100%;
+    margin: 0.1vw 0;
+    font-size: 1.3vw;
+}
+.contact__form-input:focus{
+    outline: none;
+
+}
+.contact__form-row{
+    width: 100%;
+    display: flex;
+}
+.right-margin{
+    margin-right: 0.3vw;
+}
+.left-margin{
+    margin-left: 0.3vw;
+}
+.contact__form-company-input{
+    border: none;
 }
 .contact__form-textarea{
     resize: vertical;
     height: 10vw;
+    border: none;
+}
+.contact__form-textarea:focus{
+    outline: none;
+
 }
 .contact__form-button{
     background-color: #FB414E;
     border: 1px solid #FB414E;
     color: #fff;
     padding: 1vw;
+    cursor: pointer;
 }
