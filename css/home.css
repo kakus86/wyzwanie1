@@ -79,8 +79,8 @@
 .home__content-p{
 	width: 47vw;
 	color: #F5F5F5;
-	font-size: 0.7vw;
-	padding: 0 8vw;
+	font-size: 1vw;
+	padding: 0 6vw;
 	line-height: 2;
 	font-weight: 300;
 }
@@ -119,8 +119,8 @@
 	line-height: 1.5;
 }
 .home__tile{
-	width: 21vw;
-	height: 21vw;
+	width: 23vw;
+	height: 23vw;
 	margin: 1vw 0.6vw;
 	padding: 2.5vw;
 	background-color: #202B30;

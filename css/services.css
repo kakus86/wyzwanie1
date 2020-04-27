@@ -13,10 +13,10 @@
     text-transform: uppercase;
     color: #FB414E;
     margin: 0;
-    font-size: 0.8vw;
+    font-size: 1vw;
 }
 .services__title{
-    font-size: 3vw;
+    font-size: 4vw;
     font-weight: bold;
     margin: 0.5vw 0;
     color: #202B30;
@@ -36,27 +36,27 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 67vw;
+    width: 80vw;
     margin: 2vw 0;
 }
 .services__tile{
-    width: 15vw;
+    width: 20vw;
     margin: 2.5vw 3vw;
     text-align: center;
 }
 .services__tile-image{
-    width: 2.7vw;
+    width: 3vw;
     height: 3vw;
     object-fit: contain;
 }
 .services__tile-title{
-    font-size: 1.5vw;
+    font-size: 2vw;
     margin: 0.6vw;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 800;
 }
 .services__tile-text{
-color: #9A9A9A;
+    color: #9A9A9A;
     font-weight: 300;
-    font-size: 0.9vw;
+    font-size: 1vw;
 }
