@@ -57,6 +57,12 @@
         padding: 1vw;
         justify-items: center;
     }
+    .home__nav-menu-item:focus{
+        background-color: gray;
+    }
+    .home__nav-menu-item:hover{
+        border-bottom: 1px solid gray;
+    }
 	.home__nav-menu-item li{
         width: 100vw;
         font-size: 4.5vw;
