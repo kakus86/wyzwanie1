@@ -1,4 +1,261 @@
-@media(max-width:991px){
+
+@media(min-width:480px) and (max-width:768px){
+    .home__nav-menu {
+		position: fixed;
+		width: 100vw;
+        top: 0;
+        left: 0;
+        bottom: 0;
+		right: 0;
+		margin:0;
+		padding: 0;
+		background-color: #fff;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-50%);
+    }
+    .home__nav-menu--open {
+        opacity: 1;
+        pointer-events: unset;
+        transform: unset;
+        outline: solid;
+        z-index: 2;
+    }   
+    .home__nav-mobile{
+        display: unset;
+        float: left;
+        width: 100vw;
+        position: relative;
+        height: 80px;
+        border-bottom: 1px solid lightgray;
+    }
+    .home__nav-mobil-image{
+        width: 80px;
+        object-fit: contain;
+        height: 100%;
+        border-right: 1px solid lightgray;
+        border-bottom: none;
+        padding: 30px;
+        
+    }
+    .back{
+        height: 30px;
+        text-align: center;
+        font-size: 20px;
+        padding: 28px 45vw 0 2px;
+        font-weight: 300;
+        color:#202B30;
+        float: right;
+    }
+    .home__nav-menu-item{
+        width: 100vw;
+        border-bottom: 1px solid gray;
+        margin: 0;
+        padding: 10px;
+        justify-items: center;
+    }
+    .home__nav-menu-item:focus{
+        background-color: gray;
+    }
+    .home__nav-menu-item:hover{
+        border-bottom: 1px solid gray;
+    }
+	.home__nav-menu-item li{
+        width: 100%;
+        font-size: 20px;
+        font-weight: 300;
+        color:#202B30;
+        margin: 2px 0;
+        padding: 6px;
+    }
+    .home__nav-mobile-button {
+        display: unset;
+        background: none;
+        border: none;
+		margin: 5px 20px;
+		cursor: pointer;
+    } 
+    .home__nav-mobile-button-image {
+        display: block;
+        position: absolute;
+        top: 75%;
+        right: 8%;
+        width: 20px;
+    } 
+    .home__nav-container{
+        position: absolute;
+        width: 100vw;
+        height: 200px;
+        top: 0;
+        flex-direction: column;
+        align-items: center;
+        background-color: #2b2e30;
+    }
+    .home__nav-logo{
+        width:100px;
+        height: 30px;
+        position: absolute;
+        top: 50px;
+    }
+    .home__content{
+        width: 100%;
+        height: 750px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-right: unset;
+    }
+    .home__content::before{
+        width: 100%; 
+        height: 100%;
+        background-position: center;
+        background-size: auto;
+    }
+    .home__content-header{
+        width: 100%;
+        font-weight: 700;
+        font-size: 45px;
+        margin: 180px 10px 20px;
+    }
+    .home__content-p{
+        font-size: 15px;
+        margin: 0 0 25px;
+    }
+    .home__content-button{
+        margin: 10px;
+        padding: 12px;
+        width: 150px;
+        font-size: 15px;
+        z-index: 0;
+    }
+    .home__tiles{
+        flex-direction: column;
+        top: 700px;
+        margin: 0 auto;
+    }
+    .home__tile{
+        width: 90vw;
+        height: 350px;
+        margin: 6px auto;
+        padding: 30px;
+    }
+    .home__tile-image{
+        width: 60px;
+        margin: 5px 0;
+    }
+    .home__tile-title{
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+    .home__tile-title::before{
+    
+        top: 50px;
+        width: 20%;
+        border-bottom:3px solid #ffffff; 
+    }
+    .home__tile-text{
+        font-size: 16px;
+    }
+    .services{
+        position: absolute;
+        top: 1350px;
+        width: 100%;
+    }
+    .services__span-red{
+        display: block;
+    }
+    .services__h{
+        font-size: 20px;
+    }
+    .services__title{
+        font-size: 45px;
+        text-align: center;
+        font-weight: 900;
+        margin: 0;
+    }
+    .services__text{
+        font-size: 20px;
+    }
+    .services__content{
+        margin: 4px 0;
+    }
+    .services__tile-image{
+        width: 60px;
+        height: 60px;
+    }
+    .services__tile-title{
+        font-size: 35px;
+        margin: 10px;
+        font-weight: 700;
+    }
+    .services__tile-text{
+        font-weight: 300;
+        font-size: 18px;
+    }
+    .works{
+        position: absolute;
+        top: 3050px;
+    }
+    .works__image{
+        width: 350px;
+        height: 350px;
+        margin: 5px 2.5px;
+    }
+    .contact{
+        position: absolute;
+        top: 4550px;
+        flex-direction: column;
+    }
+    .contact__text{
+        width: 100%;
+        text-align: center;
+        height: max-content;
+    }
+    .contact__header{
+        font-size: 45px;
+        font-weight: 700;
+        padding: 28px;
+    }
+    .contact__paragraph{
+        width: 100%;
+        align-self: unset;
+        margin: 0;
+        padding: 20px 50px;
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: 300;
+    }
+    .contact__form{
+        margin: 0px;
+        height: max-content;
+        width: 100%;
+        padding: 30px;
+    }
+    .contact__form-item{
+        padding: 10px;
+    }
+    .contact__form-label{
+        font-size: 10px;
+        color: #4e4c4c;
+    }
+    .contact__form-input{
+        margin: 5px 0;
+        font-size: 15px;
+    }
+    .contact__form-textarea{
+        height: 100px;
+    }
+
+    .contact__form-button{
+        padding: 10px;
+        margin-top:20px;
+    }
+    
+}
+
+@media(max-width:479px){
     .home__nav-menu {
 		position: fixed;
 		width: 100vw;
@@ -101,7 +358,7 @@
     }
     .home__content{
         width: 100%;
-        height: max-content;
+        height: 750px;
         background-color: rgba(0, 0, 0, 0.5);
         border-right: unset;
     }
@@ -196,8 +453,6 @@
     .works{
         position: absolute;
         top: 3850px;
-        flex-wrap: unset;
-        flex-direction: column;
     }
     .works__image{
         width: 350px;
@@ -231,13 +486,12 @@
     }
     .contact__form{
         margin: 0px;
-        height: max-content;
+        height: 466px;
         width: 100%;
         padding: 10px;
     }
     .contact__form-item{
         padding: 5px;
-        margin: 5px;
     }
     .contact__form-label{
         font-size: 8px;
@@ -252,7 +506,7 @@
     }
     .right-margin{
         margin-right: 0;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
     .left-margin{
         margin-left: 0;
