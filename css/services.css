@@ -1,5 +1,5 @@
 .services{
-    margin: 5vw 0 2vw;
+    margin: 500px 0 15px;
 }
 .services__header{
     display: flex;
@@ -13,20 +13,20 @@
     text-transform: uppercase;
     color: #FB414E;
     margin: 0;
-    font-size: 1vw;
+    font-size: 18px;
 }
 .services__title{
-    font-size: 4vw;
+    font-size: 60px;
     font-weight: bold;
-    margin: 0.5vw 0;
+    margin: 10px 0;
     color: #202B30;
 }
 .services__span-red{
     color: #FB414E;
 }
 .services__text{
-    font-size: 1.2vw;
-    width: 40vw;
+    font-size: 24px;
+    max-width: 700px;
     text-align: center;
     color: #9A9A9A;
     font-weight: 300;
@@ -36,27 +36,27 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 80vw;
+    max-width: 1200px;
     margin: 2vw 0;
 }
 .services__tile{
-    width: 20vw;
-    margin: 2.5vw 3vw;
+    width: 300px;
+    margin: 30px 40px;
     text-align: center;
 }
 .services__tile-image{
-    width: 3vw;
-    height: 3vw;
+    width: 50px;
+    height: 45px;
     object-fit: contain;
 }
 .services__tile-title{
-    font-size: 2vw;
-    margin: 0.6vw;
+    font-size: 35px;
+    margin: 10px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 800;
 }
 .services__tile-text{
     color: #9A9A9A;
     font-weight: 300;
-    font-size: 1vw;
+    font-size: 18px;
 }
