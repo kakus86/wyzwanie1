@@ -387,7 +387,7 @@
     }
     .home__tiles{
         flex-direction: column;
-        top: 700px;
+        top: 720px;
         margin: 0 auto;
     }
     .home__tile{
@@ -426,10 +426,11 @@
         font-size: 20px;
     }
     .services__title{
-        font-size: 45px;
+        font-size: 43px;
         text-align: center;
         font-weight: 900;
         margin: 0;
+        padding: 10px;
     }
     .services__text{
         font-size: 20px;
