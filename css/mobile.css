@@ -6,7 +6,7 @@
         left: 0;
         bottom: 0;
 		right: 0;
-		margin:0 !important;
+		margin:0;
 		padding: 0;
 		background-color: #fff;
         flex-direction: column;
@@ -26,26 +26,25 @@
     .home__nav-mobile{
         display: unset;
         float: left;
-        width: 100%;
+        width: 100vw;
         position: relative;
-        height: 20vw;
+        height: 80px;
         border-bottom: 1px solid lightgray;
     }
     .home__nav-mobil-image{
-        width: 20vw;
+        width: 80px;
         object-fit: contain;
         height: 100%;
         border-right: 1px solid lightgray;
         border-bottom: none;
-        padding: 7.5vw;
+        padding: 30px;
         
     }
     .back{
         height: 30px;
         text-align: center;
-        font-size: 4.5vw;
-        padding: 7vw 35vw 0 0.5vw;
-        font-size: 4.5vw;
+        font-size: 20px;
+        padding: 28px 33vw 0 2px;
         font-weight: 300;
         color:#202B30;
         float: right;
@@ -54,7 +53,7 @@
         width: 100vw;
         border-bottom: 1px solid gray;
         margin: 0;
-        padding: 1vw;
+        padding: 10px;
         justify-items: center;
     }
     .home__nav-menu-item:focus{
@@ -64,12 +63,12 @@
         border-bottom: 1px solid gray;
     }
 	.home__nav-menu-item li{
-        width: 100vw;
-        font-size: 4.5vw;
+        width: 100%;
+        font-size: 20px;
         font-weight: 300;
         color:#202B30;
-        margin: 1vw 0;
-        padding: 3vw;
+        margin: 2px 0;
+        padding: 6px;
     }
     .home__nav-mobile-button {
         display: unset;
@@ -83,28 +82,28 @@
         position: absolute;
         top: 75%;
         right: 8%;
-        width: 6vw;
+        width: 20px;
     } 
     .home__nav-container{
         position: absolute;
         width: 100vw;
-        height: 50vw;
+        height: 200px;
         top: 0;
         flex-direction: column;
         align-items: center;
         background-color: #2b2e30;
     }
     .home__nav-logo{
-        width:35vw;
-        height: 9vw;
+        width:100px;
+        height: 30px;
         position: absolute;
-        top: 16vw;
+        top: 50px;
     }
     .home__content{
-        width: 100vw;
-        height: 220vw;
+        width: 100%;
+        height: max-content;
         background-color: rgba(0, 0, 0, 0.5);
-        border-right: 1px solid #fff;
+        border-right: unset;
     }
     .home__content::before{
         width: 100%; 
@@ -113,167 +112,158 @@
         background-size: auto;
     }
     .home__content-header{
-        width: 100vw;
-        font-size: 12vw;
-        margin: 35vw 0.2vw 5vw;
+        width: 100%;
+        font-weight: 700;
+        font-size: 45px;
+        margin: 180px 10px 20px;
     }
     .home__content-p{
-        width: 100vw;
-        font-size: 3.7vw;
-        margin: 0;
+        font-size: 15px;
+        margin: 0 0 25px;
     }
     .home__content-button{
-        margin: 8vw 2vw;
-        padding: 4vw;
-        width: 40vw;
-        font-size: 4vw;
+        margin: 10px;
+        padding: 12px;
+        width: 150px;
+        font-size: 15px;
         z-index: 0;
     }
     .home__tiles{
         flex-direction: column;
-        top: 200vw;
+        top: 700px;
         margin: 0 auto;
     }
     .home__tile{
-        width: 92vw;
-        height: 100vw;
-        margin: 2vw 4vw;
-        padding: 10vw;
+        width: 90vw;
+        height: 350px;
+        margin: 6px auto;
+        padding: 30px;
     }
     .home__tile-image{
-        width: 19vw;
-        margin: 1vw 0;
+        width: 60px;
+        margin: 5px 0;
     }
     .home__tile-title{
-        font-size: 5.5vw;
+        font-size: 20px;
         font-weight: 400;
-        margin-bottom: 8vw;
+        margin-bottom: 40px;
     }
     .home__tile-title::before{
     
-            top: 10vw;
-            width: 20%;
-            border-bottom:3px solid #ffffff; 
+        top: 50px;
+        width: 20%;
+        border-bottom:3px solid #ffffff; 
     }
     .home__tile-text{
-        font-size: 4vw;
-        margin-top: 3vw;
+        font-size: 16px;
     }
     .services{
         position: absolute;
-        top: 520vw;
+        top: 1350px;
+        width: 100%;
     }
-    
+    .services__span-red{
+        display: block;
+    }
     .services__h{
-        font-size: 4.5vw;
+        font-size: 20px;
     }
     .services__title{
-        font-size: 11vw;
+        font-size: 45px;
         text-align: center;
         font-weight: 900;
-        margin: 1.5vw 0;
+        margin: 0;
     }
     .services__text{
-        font-size: 5vw;
-        width: 90vw;
-        text-align: center;
-        color: #9A9A9A;
-        font-weight: 300;
+        font-size: 20px;
     }
     .services__content{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 90vw;
-        margin: 2vw 0;
-    }
-    .services__tile{
-        width: 94vw;
-        padding: 5vw;
+        margin: 4px 0;
     }
     .services__tile-image{
-        width: 19vw;
-        height: 19vw;
+        width: 60px;
+        height: 60px;
     }
     .services__tile-title{
-        font-size: 9vw;
-        margin: 2vw;
+        font-size: 35px;
+        margin: 10px;
         font-weight: 700;
     }
     .services__tile-text{
         font-weight: 300;
-        font-size: 5vw;
+        font-size: 18px;
     }
     .works{
         position: absolute;
-        top: 1080vw;
+        top: 3850px;
         flex-wrap: unset;
         flex-direction: column;
     }
     .works__image{
-        width: 94vw;
-        height: 94vw;
-        margin: 1.5vw 3vw;
+        width: 350px;
+        height: 350px;
+        margin: 5px 2.5px;
     }
     .contact{
         position: absolute;
-        top: 1870vw;
+        top: 6800px;
         flex-direction: column;
     }
     .contact__text{
-        
+        width: 100%;
         text-align: center;
         height: max-content;
         
     }
     .contact__header{
-        width: 85vw;
-        font-size: 12vw;
+        font-size: 45px;
         font-weight: 700;
-        margin: 7.5vw;
+        padding: 20px;
     }
     .contact__paragraph{
-        width: 85vw;
+        width: 100%;
         align-self: unset;
-        margin: 7.5vw;
-        font-size: 4.5vw;
+        margin: 0;
+        padding: 20px 25px;
+        font-size: 16px;
         line-height: 1.5;
         font-weight: 300;
     }
     .contact__form{
-        margin: 5vw;
-        height: 115vw;
-        width: 90vw;
+        margin: 0px;
+        height: max-content;
+        width: 100%;
+        padding: 10px;
     }
     .contact__form-item{
-        padding: 1.5vw;
-        margin: 0;
+        padding: 5px;
+        margin: 5px;
     }
     .contact__form-label{
-        font-size: 2.5vw;
+        font-size: 8px;
         color: #4e4c4c;
     }
     .contact__form-input{
-        margin: 1vw 0;
-        font-size: 3vw;
+        margin: 5px 0;
+        font-size: 10px;
     }
     .contact__form-row{
         display: unset;
     }
     .right-margin{
-        margin-right: unset;
-        margin-bottom: 4vw;
+        margin-right: 0;
+        margin-bottom: 10px;
     }
     .left-margin{
-        margin-left: unset;
+        margin-left: 0;
     }
     .contact__form-textarea{
-        height: 25vw;
+        height: 100px;
     }
 
     .contact__form-button{
-        padding: 3vw;
-        margin-top:5vw;
+        padding: 10px;
+        margin-top:20px;
     }
     
 }
