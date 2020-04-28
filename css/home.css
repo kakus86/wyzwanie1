@@ -37,6 +37,7 @@
 	color: inherit;
 	width: max-content;
 	border-bottom: 0.1vw solid transparent;
+	
 }
 .home__nav-menu-item:hover{
 	border-bottom: 0.1vw solid #fff;

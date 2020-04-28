@@ -285,23 +285,22 @@
         float: left;
         width: 100vw;
         position: relative;
-        height: 80px;
+        height: 65px;
         border-bottom: 1px solid lightgray;
     }
     .home__nav-mobil-image{
-        width: 80px;
+        width: 70px;
         object-fit: contain;
         height: 100%;
         border-right: 1px solid lightgray;
         border-bottom: none;
-        padding: 30px;
+        padding: 22px;
         
     }
     .back{
-        height: 30px;
         text-align: center;
         font-size: 20px;
-        padding: 28px 33vw 0 2px;
+        padding: 19px 33vw 0 2px;
         font-weight: 300;
         color:#202B30;
         float: right;
